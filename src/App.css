@@ -1,5 +1,6 @@
-.App {
+/* .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,95 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* ---- */
+#textblock {
+  background-color: #150021;
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#textblock-footer {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin-bottom: 20px;
+
+}
+
+#textblock-rul {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  background: linear-gradient(#2b1055, #7597de);
+  /* display: block;
+	position: relative;
+	z-index: 10; */
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+
+.animation_layer.parallax {
+	position: fixed;
+}
+
+#artback {
+  background-image: url(./img/mountains_behind.png);
+}
+
+#bulan {
+  background-image: url(./img/moon.png);
+  mix-blend-mode: darken;
+}
+
+#stars {
+  background-image: url(./img/stars.png);
+  mix-blend-mode: normal;
+}
+
+#earth {
+  background-image: url(./img/mountains_front.png);
+}
+
+section #planets{
+  mix-blend-mode: screen;
+  background: linear-gradient(#2b1055, #7597de);
 }
